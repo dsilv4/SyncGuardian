@@ -81,5 +81,3 @@ Contributions to this project are welcome! Feel free to open issues or pull requ
 ## License
 
 This project is licensed under the MIT License.
-
-to customize this template based on additional details you'd like to include or specific instructions for users and contributors.
