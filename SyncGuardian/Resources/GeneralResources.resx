@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABOUT" xml:space="preserve">
+    <value>SyncGuardian ver 1.0 \nAuthor: Carlos Silva</value>
+  </data>
+  <data name="APP_NAME" xml:space="preserve">
+    <value>SyncGuardian</value>
+  </data>
+  <data name="APP_SMALL_DESCRIPTION" xml:space="preserve">
+    <value>Your no-frills backup solution that simply  does what needs to be done</value>
+  </data>
+  <data name="ASK_BACKUP_DIRECTORY" xml:space="preserve">
+    <value>Please, insert the backup folder's path. Exemple D:\MyBackupFolder\ or D:\My Backup Folder</value>
+  </data>
+  <data name="ASK_DIRECTORY_ERROR" xml:space="preserve">
+    <value>Path is not valid, please verify and insert a valid path.</value>
+  </data>
+  <data name="ASK_IS_DELETE" xml:space="preserve">
+    <value>Please write "delete" if you want to delete the files and folders thar are non existent in the source folder.</value>
+  </data>
+  <data name="ASK_IS_DELETE_ERROR" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ASK_SOURCE_DIRECTORY" xml:space="preserve">
+    <value>Please, insert the source folder's path. Exemple D:\MySourceFolder\ or D:\My Backup Folder</value>
+  </data>
+  <data name="ASK_STOP_TIMER" xml:space="preserve">
+    <value>Please write 'y' if you desire to stop the timer.</value>
+  </data>
+  <data name="ASK_TIME_INTERVAL" xml:space="preserve">
+    <value>Please insert the time between backupsin this format: dd-hh-mm. Example 01-24-59</value>
+  </data>
+  <data name="ASK_TIME_INTERVAL_ERROR" xml:space="preserve">
+    <value>Please, review  your entry and submit it again.</value>
+  </data>
+  <data name="DELETE" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="ENTER_CHOICE" xml:space="preserve">
+    <value>Please, enter a choice 1 -  </value>
+  </data>
+  <data name="GO_TO_MENU" xml:space="preserve">
+    <value>"Please press any key to go back to go back to the Menu."</value>
+  </data>
+  <data name="GO_TO_MENU_DISPOSE" xml:space="preserve">
+    <value>"Please press "ENTER" to cancel Timer and go back to the Menu."</value>
+  </data>
+  <data name="GO_TO_MENU_START_BACKUP" xml:space="preserve">
+    <value>Please press "y" to go back to menu anywhere it's asking for input in this page.</value>
+  </data>
+  <data name="INSTRUCTIONS" xml:space="preserve">
+    <value>SyncGuardian is a periodic backup solution.In order to start the backup or your files you need to proceed to give the necessary information as: 
+
+1. Link to the folder that contains your files 
+2. Link to the new folder that will have the backup files 
+3.the time interval that you want SyncGuardian to verify if there's any backup to do
+
+For the Links, in there's any folder or file in it that has spaces, use "" around the link: "C:\Users\Carlos Silva\My Files"
+For the time interval, it needs to have the formar ddd-hhh-mmm, d-days, h-hours, m-minutes
+
+After you introduce all the values, everything is ready and the timer starts, doing a backup each time the interval you gave passes.
+
+Thank you for using SyncGuardian</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="WRONG_ENTRY" xml:space="preserve">
+    <value>Wrong selection. Please enter a number between 1 and {0}.</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>y</value>
+  </data>
+</root>
