@@ -81,6 +81,12 @@ Ensure these dependencies are available in your C# development environment.
 Contributions to this project are welcome! Feel free to open issues or pull requests.
 
 
+## Download
+
+- **[SyncGuardian.zip](link-to-your-releases-page)**: Download the executable file.
+
+   SyncGuardian.zip contains the executable of the application.
+
 
 ## License
 
