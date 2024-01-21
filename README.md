@@ -11,6 +11,7 @@
 - [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
+- [Download](#download)
 - [License](#license)
 
 ## Introduction
@@ -49,6 +50,7 @@ Follow the on-screen prompts to navigate through the menu and perform desired ac
 - Logging of backup actions to a log file.
 - Ability to delete files only present in the backup folder.
 
+
 ## Project Structure
 
 The project is structured as follows:
@@ -77,6 +79,8 @@ Ensure these dependencies are available in your C# development environment.
 ## Contributing
 
 Contributions to this project are welcome! Feel free to open issues or pull requests.
+
+
 
 ## License
 
