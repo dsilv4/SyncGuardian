@@ -83,7 +83,7 @@ Contributions to this project are welcome! Feel free to open issues or pull requ
 
 ## Download
 
-- **[SyncGuardian.zip](link-to-your-releases-page[https://github.com/dsilv4/SyncGuardian/blob/master/SyncGuardian.zip] Download the executable file.
+- **[SyncGuardian.zip](link-to-your-releases-page(https://github.com/dsilv4/SyncGuardian/blob/master/SyncGuardian.zip) Download the executable file.
 
    SyncGuardian.zip contains the executable of the application.
 
