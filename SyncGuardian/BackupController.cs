@@ -28,7 +28,7 @@ namespace SyncGuardian
 
         public  void StartBackup()
         {
-           
+           BackupTimer.Start();
             LogService.LogAction(string.Format("Timer Started", BackupTimer.Interval / 1000), BackupFileInfo.FullName);
         }
 
